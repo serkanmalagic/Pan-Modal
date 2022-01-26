@@ -23,6 +23,7 @@
 		FDA7515527A0E157001169E1 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7515327A0E157001169E1 /* NetworkClient.swift */; };
 		FDA7515727A0E356001169E1 /* PanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7515627A0E356001169E1 /* PanViewController.swift */; };
 		FDA7515927A0E610001169E1 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7515827A0E610001169E1 /* OverlayView.swift */; };
+		FDADF1C727A1212800425806 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADF1C627A1212800425806 /* TodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		FDA7515327A0E157001169E1 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		FDA7515627A0E356001169E1 /* PanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanViewController.swift; sourceTree = "<group>"; };
 		FDA7515827A0E610001169E1 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		FDADF1C627A1212800425806 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				FDA7512E27A0DF2D001169E1 /* ViewController.swift */,
+				FDADF1C627A1212800425806 /* TodoViewController.swift */,
 				FDA7515627A0E356001169E1 /* PanViewController.swift */,
 			);
 			path = ViewController;
@@ -290,6 +293,7 @@
 			files = (
 				FDA7515127A0E14E001169E1 /* Extension.swift in Sources */,
 				FDA7514727A0E140001169E1 /* TodoViewModel.swift in Sources */,
+				FDADF1C727A1212800425806 /* TodoViewController.swift in Sources */,
 				FDA7512F27A0DF2D001169E1 /* ViewController.swift in Sources */,
 				FDA7515527A0E157001169E1 /* NetworkClient.swift in Sources */,
 				FDA7515727A0E356001169E1 /* PanViewController.swift in Sources */,

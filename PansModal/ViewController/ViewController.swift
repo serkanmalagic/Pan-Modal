@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         let button = UIButton()
         button.setTitle("trigger modal", for: .normal)
         button.backgroundColor = .red
+        button.layer.cornerRadius = 15
         button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         return button
     }()
@@ -31,18 +32,18 @@ class ViewController: UIViewController {
         btn.snp.makeConstraints { make in
             make.centerY.equalToSuperview()
             make.centerX.equalToSuperview()
-            make.width.equalTo(100)
+            make.width.equalTo(200)
             make.height.equalTo(50)
         }
     }
     
     @objc func buttonAction(sender: UIButton!) {
-        let slideVC = OverlayView()
-                slideVC.modalPresentationStyle = .custom
-                slideVC.transitioningDelegate = self
-                self.present(slideVC, animated: true, completion: nil)
+        let slideVC = TodoViewController()
+        slideVC.modalPresentationStyle = .custom
+        slideVC.transitioningDelegate = self
+        slideVC.view.backgroundColor = .white
+        self.present(slideVC, animated: true, completion: nil)
     }
-
 
 }
 

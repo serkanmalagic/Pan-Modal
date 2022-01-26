@@ -24,12 +24,11 @@ class OverlayView: UIViewController {
         return lbl
     }()
     
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         view.addSubview(lbl)
+        
         lbl.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.centerY.equalToSuperview()
@@ -40,7 +39,6 @@ class OverlayView: UIViewController {
         let panGesture = UIPanGestureRecognizer(target: self, action: #selector(panGestureRecognizerAction))
         view.addGestureRecognizer(panGesture)
         
-       
     }
     
     override func viewDidLayoutSubviews() {
